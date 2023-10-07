@@ -8,12 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      backgroundColor: {
+        'side': '#2e3345',
+        'form1': '#fbfbfb',
       },
-    },
+      backgroundImage: {
+        'gradient-side': 'linear-gradient(120deg, #000 15%, #2e3345 100%)',
+      },
+      fontSize: {
+        'xxs': '0.8rem', // Adjust the value to your desired size
+      },
+    }
   },
   plugins: [],
 }
